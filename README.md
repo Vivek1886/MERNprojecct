@@ -73,31 +73,62 @@ vite.config.js
 ```bash
 git clone https://github.com/your-username/your-repo-name.git
 cd your-repo-name
-2. Backend setup
+```bash
+
+### 2. Backend setup
+
+```bash
 cd Backend
 npm install
+```bash
 
 Create a .env file:
-
+```bash
 API_KEY=your_api_key_here
 PORT=5000
+```bash
 
 Run backend:
-
+```bash
 npm start
-3. Frontend setup
+```bash
+### 3. Frontend setup
+
+```bash
 cd ../Frontend
 npm install
 npm run dev
-Deployment
+```bash
+
+### Deployment
+
 Backend: Render
 Frontend: Vercel / Netlify
-Limitations
-Depends on external AI API
-Accuracy varies based on input resume
-Requires internet connection
-Future Improvements
-Add job description matching
-Improve scoring algorithm
-Add user authentication
-Resume history tracking
+
+---
+
+## Limitations
+
+- Depends on external AI API
+- Accuracy varies based on input resume
+- Requires internet connection
+
+---
+
+## Future Improvements
+
+- Add job description matching
+- Improve scoring algorithm
+- Add user authentication
+- Resume history tracking
+
+---
+
+## Author
+
+Vivek Singh Rawat
+
+---
+
+
+
